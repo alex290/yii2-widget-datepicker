@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist alex290/yii2-datetimepicker "*"
+php composer.phar require --prefer-dist alex290/yii2-datepicker "*"
 ```
 
 or add
 
 ```
-"alex290/yii2-datetimepicker": "*"
+"alex290/yii2-datepicker": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -28,4 +28,4 @@ to the require section of your `composer.json` file.
 поле $datetime должен быть формата intiger
 
 ```php
-<?= $form->field($model, 'datetime')->widget(alex290\datetimepicker\Datepicker::className(),[]) ?>```
+<?= $form->field($model, 'datetime')->widget(alex290\datepicker\Datepicker::className(),[]) ?>```
