@@ -1,8 +1,8 @@
 {
-    "name": "alex290/yii2-datetimepicker",
-    "description": "The DateTimePicker widget Yii2",
+    "name": "alex290/yii2-datepicker",
+    "description": "The DatePicker widget Yii2",
     "type": "yii2-extension",
-    "keywords": ["yii2","datetimepicker"],
+    "keywords": ["yii2","datepicker"],
     "license": "MIT",
     "authors": [
         {
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "alex290\\datetimepicker\\": ""
+            "alex290\\datepicker\\": ""
         }
     }
 }
