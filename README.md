@@ -29,3 +29,4 @@ to the require section of your `composer.json` file.
 
 ```php
 <?= $form->field($model, 'datetime')->widget(alex290\datepicker\Datepicker::className(),[]) ?>```
+
